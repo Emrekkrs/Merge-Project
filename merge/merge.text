@@ -1,0 +1,18 @@
+Merge Sort
+16,21,11,8,12,22 -> Başlangıç dizesi
+
+ ikiye böl-> 16,21,  11      8 12 22   
+
+ikiye böl-> [16,21,] and [11]      [8, 12] and [22]
+
+again -> [16,21,];  [8 12]  
+
+combine -> [16,21,] -> [16,21]
+combine ->  [8] [12] -> [8,12] 
+
+combine [16,21] and [11] ->[11,16,21]
+combine [8,12] and [22] -> [8,12,22]
+
+last merge -> [11,16,21,] and  [8,12, 22] -> [ 8,11,12,16,21,22]
+
+               Big-O   O (nlogn)
